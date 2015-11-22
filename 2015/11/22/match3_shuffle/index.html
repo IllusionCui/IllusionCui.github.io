@@ -3,17 +3,24 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Tag: MarkDown | IllusionCui&#39;s Blog</title>
+  <title>三消洗牌算法思路 | IllusionCui&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Make your better day after day">
-<meta property="og:type" content="website">
-<meta property="og:title" content="IllusionCui's Blog">
-<meta property="og:url" content="http://www.cuibeibei.com/tags/MarkDown/index.html">
+  <meta name="description" content="三消洗牌算法基本概念###三消可行空间：即通过两个元素交换能够形成三消的一个物理空间结构。这里将导致不能形成三消的关键点称为X，其他的点称为Y的话。可行解空间由主方向（连续两个YY）带上副方向（单独的Y）组成的模式和三个单独的（Y）两种模型。总计一个X点不考虑限制的话有4*3+4=16种可行解空间。
+###洗牌：对不同种类不同数量的元素，放入一定顺序的格子中，达到某种条件的排序组合的某一种解。
+基">
+<meta property="og:type" content="article">
+<meta property="og:title" content="三消洗牌算法思路">
+<meta property="og:url" content="http://www.cuibeibei.com/2015/11/22/match3_shuffle/index.html">
 <meta property="og:site_name" content="IllusionCui's Blog">
-<meta property="og:description" content="Make your better day after day">
+<meta property="og:description" content="三消洗牌算法基本概念###三消可行空间：即通过两个元素交换能够形成三消的一个物理空间结构。这里将导致不能形成三消的关键点称为X，其他的点称为Y的话。可行解空间由主方向（连续两个YY）带上副方向（单独的Y）组成的模式和三个单独的（Y）两种模型。总计一个X点不考虑限制的话有4*3+4=16种可行解空间。
+###洗牌：对不同种类不同数量的元素，放入一定顺序的格子中，达到某种条件的排序组合的某一种解。
+基">
+<meta property="og:updated_time" content="2015-11-22T12:34:30.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="IllusionCui's Blog">
-<meta name="twitter:description" content="Make your better day after day">
+<meta name="twitter:title" content="三消洗牌算法思路">
+<meta name="twitter:description" content="三消洗牌算法基本概念###三消可行空间：即通过两个元素交换能够形成三消的一个物理空间结构。这里将导致不能形成三消的关键点称为X，其他的点称为Y的话。可行解空间由主方向（连续两个YY）带上副方向（单独的Y）组成的模式和三个单独的（Y）两种模型。总计一个X点不考虑限制的话有4*3+4=16种可行解空间。
+###洗牌：对不同种类不同数量的元素，放入一定顺序的格子中，达到某种条件的排序组合的某一种解。
+基">
   
   
     <link rel="icon" href="favicon.png">
@@ -121,50 +128,94 @@
 </aside>
 
       
-      <section id="main">
-    <section class="archives-wrap">
-    <div class="archive-tag-wrap">
-      <span class="archive-tag">#MarkDown</span>
-    </div>
-    <div class="archives">
+      <section id="main"><article id="post-match3_shuffle" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
     
-    <div class="archive-article-thumbnail">
-      <a href="/2015/11/22/learn-markdown/" class="thumbnail">
-  
-    <span style="background-image:url(https://www.google.com.sg/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
-)" alt="Markdown 学习记录" class="thumbnail-image"></span>
-  
-</a>
-    </div>
     
-    <header class="archive-article-header">
-      
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/11/22/learn-markdown/">Markdown 学习记录</a>
+    <h1 class="article-title" itemprop="name">
+      三消洗牌算法思路
     </h1>
   
 
-      
-        
-  <div class="archive-article-date">
+        <div class="article-meta">
+          
+  <div class="article-date">
     <i class="fa fa-calendar"></i>
-    <a href="/2015/11/22/learn-markdown/">
-      <time datetime="2015-11-22T05:15:12.000Z" itemprop="datePublished">2015 11月 22</time>
+    <a href="/2015/11/22/match3_shuffle/">
+      <time datetime="2015-11-22T12:34:30.000Z" itemprop="datePublished">2015-11-22</time>
     </a>
   </div>
 
 
-      
-    </header>
+          
+  <div class="article-category">
+  	<i class="fa fa-folder"></i>
+    <a class="article-category-link" href="/categories/三消/">三消</a>
   </div>
-</article>
+
+        </div>
+      </header>
     
-    </div></section>
-    </section>
+    <div class="article-entry" itemprop="articleBody">
+      
+                
+        <h1 id="三消洗牌算法">三消洗牌算法</h1><h2 id="基本概念">基本概念</h2><p>###三消可行空间：<br>即通过两个元素交换能够形成三消的一个物理空间结构。这里将导致不能形成三消的关键点称为X，其他的点称为Y的话。可行解空间由主方向（连续两个YY）带上副方向（单独的Y）组成的模式和三个单独的（Y）两种模型。总计一个X点不考虑限制的话有4*3+4=16种可行解空间。</p>
+<p>###洗牌：<br>对不同种类不同数量的元素，放入一定顺序的格子中，达到某种条件的排序组合的某一种解。</p>
+<h2 id="基本思路">基本思路</h2><p>保证有可行操作，并且是稳定的局面。</p>
+<ul>
+<li><p>保证有可行解空间</p>
+</li>
+<li><p>选择可行解空间，放入可以交换的解</p>
+</li>
+<li><p>将剩下的元素，填入形成稳定局面</p>
+</li>
+</ul>
+<p>对场面的进行最好条件的组合，如果不能形成解，那么就是没解。</p>
+<h2 id="基本实现">基本实现</h2><ol>
+<li>统计出场面能参与洗牌的元素</li>
+<li>对所有可以操作的空间，初始化其可以选择的元素。</li>
+<li>根据当前局面，将空间中状态更行。比如不能参加洗牌的元素使得某个格子只能选某种颜色，那就填入该颜色；或者现在某个空间只能是黄色或者蓝色等等情况。</li>
+<li>针对能形成可行解空间多少的点排序，选择可形成最少可行解空间的点填上不能参与解的元素。</li>
+<li>重复4直到所有不能参与形成解的元素填入完成。</li>
+<li>针对能形成可行解空间多少的点排序，选择可形成最多可行解空间的点，选择某个可行解空间，某个可行解元素。</li>
+<li>执行3，再执行6。直至不存在可行解点（这里可以在尽量保证n个解的时候，停止）</li>
+<li><p>执行3，然后对空间任意填上剩下元素。</p>
+<p>步骤6需要对空间点和选择颜色做笛卡尔积的组合遍历，步骤8需要队列排序。<br>通过动态更新和递归遍历，即可完成。</p>
+</li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://www.cuibeibei.com/2015/11/22/match3_shuffle/" data-id="cihaibaq90000rchgg57rxfc4" class="article-share-link">分享到</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/洗牌/">洗牌</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2015/11/22/learn-markdown/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">下一篇</strong>
+      <div class="article-nav-title">Markdown 学习记录</div>
+    </a>
+  
+</nav>
+
+
+  
+</article>
+
+
+</section>
       
         <aside id="sidebar">
   
